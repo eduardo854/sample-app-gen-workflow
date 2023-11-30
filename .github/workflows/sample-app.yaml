@@ -14,7 +14,7 @@ on:
       - 'docs/**'
 jobs:
   build-and-push:
-    uses: eduardo854/.github/.github/workflows/app-helm-release.yaml@test
+    uses: eduardo854/.github/.github/workflows/app-helm-release.yaml@main
     with:
       os_version: "ubuntu-latest"
       github_sha: ${{ github.sha }}
